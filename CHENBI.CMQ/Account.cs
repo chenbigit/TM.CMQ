@@ -167,7 +167,7 @@ namespace CHENBI.CMQ
         /// <param name="topicName"></param>
         /// <returns></returns>
         public Topic GetTopic(String topicName)
-        {
+        { 
             return new Topic(topicName, this.client);
         }
 
